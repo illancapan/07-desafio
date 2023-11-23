@@ -1,0 +1,108 @@
+:root {
+	/* ========== COLORS ========== */
+    --white :#ffffff;
+    --platinum:#e8ebe4;
+    --gray:#bec1bb;
+    --blue-bell:#a491d2;
+    --soap:#cdc3e6;
+    --pale-lavender:#d4dcff;
+    --dark-jungle:#1b1f21;
+    --outer-space:#444749;
+    --old-silver:#828485;
+
+	/* ========== TYPOGRAPHY ========== */
+
+    --font-family-openSans: 'Open Sans', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--dark-jungle);
+}
+.main{
+    display:flex;
+    width: 100vw;
+    height: 100vh;/* flex-flow:;
+    justify-content:;
+    align-items:; */
+}
+.asaide--chat{
+    border: 1px solid black;
+    width: 300px;
+    /* padding: 10px; */
+}
+.chat{
+    border: 1px solid black;
+    /* display: ; */
+
+}
+.chat__user{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.user__img{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    margin: 0 10px;
+    border: 1px solid black;
+
+
+}
+.user__name{
+    border: 1px solid black;
+    font-family: var(--font-family-openSans);
+    font-size: 10px;
+}
+.user__state{
+    border: 1px solid black;
+    font-family: var(--font-family-openSans);
+    font-size: 10px;
+    margin: 0;
+}
+.chat__user{
+    border: 1px solid black;
+
+}
+.user__name--active{
+    font-family: var(--font-family-roboto);
+    font-size: 10px;
+}
+.user__state--active{
+    font-family: var(--font-family-openSans);
+    color: var(--outer-space);
+    font-size: 10px;
+}
+.section--networking{
+    border: 1px solid black;
+
+}
+.section--networking__img{
+    border: 1px solid black;
+
+}
+.section--networking__title{
+    border: 1px solid black;
+
+}
+.paragraph__bold{
+    border: 1px solid black;
+
+}
