@@ -24,85 +24,131 @@ body {
     background-color: var(--white);
     color: var(--dark-jungle);
 }
+.button{
+    width: 9.375rem;
+    background-color: var(--blue-bell);
+    font-size: .75rem;
+    color: var(--white);
+    font-family: var(--font-family-openSans);
+    padding: .625rem .9375rem;
+}
 .main{
     display:flex;
-    width: 100vw;
-    height: 100vh;/* flex-flow:;
-    justify-content:;
-    align-items:; */
+    min-width: 100vw;
+    min-height: 100vh;
 }
 .asaide--chat{
-    border: 1px solid black;
-    width: 300px;
-    /* padding: 10px; */
+    width: 18.75rem;
+    height: auto;
+    border: .0625rem solid var(--old-silver);  
 }
 .chat{
-    border: 1px solid black;
-    /* display: ; */
-
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .chat__user{
-    border: 1px solid black;
     display: flex;
+    height: auto;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    padding: .625rem;
 
 }
+.chat__contenedor{
+    width: 16.25rem;
+    border-bottom: .0625rem solid #444749;
+}
+.chat__user--maria{
+    display: flex;
+    align-items: center;
+    width: 14.375rem;
+    padding: .625rem;
+    margin: .625rem;
+}
+.user__maria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 9.375rem;
+    margin: 0 .625rem;
+}
+.chat__icon{
+    color: var(--old-silver);
+    display:flex;
+    width: 3.125rem;
+    justify-content: space-around;
+}
+.user__img--maria{    
+    width: 1.875rem;
+    height: 1.875rem;
+    margin: .3125rem;
+    border-radius: 50%;
+}
 .user__img{
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-
+    width: 3.125rem;
+    height: 3.125rem;
+    border: .1875rem solid var(--white);
+    border-radius: 50%;
+    margin: .625rem;
 }
 .user{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 200px;
-    margin: 0 10px;
-    border: 1px solid black;
-
-
+    width: 9.375rem;
+    margin: .625rem;
 }
 .user__name{
-    border: 1px solid black;
     font-family: var(--font-family-openSans);
-    font-size: 10px;
+    font-size: .625rem;
+    font-weight: bold;
 }
 .user__state{
-    border: 1px solid black;
     font-family: var(--font-family-openSans);
-    font-size: 10px;
-    margin: 0;
-}
-.chat__user{
-    border: 1px solid black;
-
+    font-size: .625rem;
 }
 .user__name--active{
     font-family: var(--font-family-roboto);
-    font-size: 10px;
+    font-size: .625rem;
 }
 .user__state--active{
     font-family: var(--font-family-openSans);
     color: var(--outer-space);
-    font-size: 10px;
+    font-size: .625rem;
+}
+.section{
+    background-color: var(--platinum);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 .section--networking{
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 .section--networking__img{
-    border: 1px solid black;
+    width: 18.75rem;
 
 }
 .section--networking__title{
-    border: 1px solid black;
+    font-size: 2.625rem;
+    margin: 1.875rem 0;
+
+}
+.section--networking__paragraph{
+    width:25rem;
+    font-size: .875rem;
+    text-align: center;
 
 }
 .paragraph__bold{
-    border: 1px solid black;
-
+    font-weight: bold;
 }
